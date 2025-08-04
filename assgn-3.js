@@ -60,8 +60,10 @@ var startingSalary = 45000;
 
 var CurrentSalary = startingSalary;
 for (var year = 1; year <= experience; year++){
-    CurrentSalary = CurrentSalary *1.05 // 5% annual raise
+    CurrentSalary = CurrentSalary *1.05 // 5% annually 
 }
 console.log(CurrentSalary.toFixed(2));
 
 // output: 194 487.41
+
+// S M SAMIUL HASAN 
